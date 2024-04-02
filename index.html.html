@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gabriel Goussot's Profile
+	</title>
+
+		<link rel="stylesheet" href="Profile.css">
+
+		<meta name="description" content="La page de présentation de Gabriel Goussot">
+
+		<meta charset="utf-8">
+
+		<script src="https://kit.fontawesome.com/9695808be9.js" crossorigin="anonymous"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@700&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+
+		<style>
+ 			 .toggle-paragraph {
+    		display: none;
+ 			 }
+		</style>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+  			img {
+   				 width: 200px; 
+   			 	height: auto; 
+   			 	border-radius: 75%;
+ 			 }
+		</style>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Fausse Pop-up de Consentement aux Cookies</title>
+		<script>
+ 			 function acceptCookies() {
+
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+ 		 }
+
+
+  			function refuseCookies() {
+    
+   		document.getElementById("cookie-popup").style.display = "none";
+ 		 }
+		</script>
+
+		
+
+	</head>
+
+	<body>
+		
+	<div class="container">
+  	<div class="content">
+
+		<h1 class="shantell-sans-title"> Hello ! I'm Gabriel </h1>
+		<img src="images/Photoprofil.jpeg" alt="Photo profil Gabriel">
+	<div class="card-white">
+		<h2> I am a 18 years old ESSEC student from Paris 19e </h2>
+	</div>
+
+	<h3>My Hobbies</h3>
+
+		<button class="Hobbie" onclick="toggleParagraph('Hobbies')"><i class="fa-solid fa-plane-departure"></i></button>
+
+			<p id="Hobbies" class="toggle-paragraph">I've got pretty simple, and commons, Hobbies: Firstly I like <strong>to travel !</strong> I've been to several countries like the USA, Oman, South Africa etc. , and going abroad with friends or family is one thing that <strong>motivate me.</strong>
+			 Otherwise, I like <strong>to read</strong> fantasy and Sci-Fi books, and <strong>to hear loud bass</strong> shaking the speakers.</p>
+
+		<h3>Sport</h3>
+
+			<button class="Hobbie" onclick="toggleParagraph('Sport')"><i class="fa-solid fa-dumbbell"></i></button>
+
+				<p id="Sport" class="toggle-paragraph">My others hobbies, and what entertained me most of the time is <strong>practicing sports.</strong> I've done Judo for 12 years, since I was 4, and win several competition. I've spent time playing to all kind of sport with a ball (tennis and football particularly). But the sports that are driving nowadays is <strong>skiing and fitness.</strong> I looove to ski, it's my favorite week of the years, and I'm now pretty good at musculation, so it's kinda fun now. </p>
+
+
+		<h3>Professional aspiration</h3>
+			<button class="Hobbie" onclick="toggleParagraph('Professional Aspiration')"><i class="fa-solid fa-suitcase"></i></button>
+			
+				<p id="Professional Aspiration" class="toggle-paragraph">I'm not an original, this being said, I'd like to work in finance. What is driving me is the beauty of the job, how interesting it is, and I feel that I am contributing to this world. Nah I'm kidding, money is my main motivation (travelling and skiing is expensive). Anyway, more seriously I really aspire to work in private equity, sustainable finance and International market. For no particular reason, I'm attracted to investments in general, so I decided to work in this sector. </p>
+<script>
+  function toggleParagraph(paragraphId) {
+    var paragraph = document.getElementById(paragraphId);
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+    } else {
+      paragraph.style.display = "none";
+    }
+  }
+</script>
+
+		
+		<h3>Link to my social media:</h3>
+
+		<ul class="social-icons">
+  			<li>	<a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEsmPYYBF3c7r0GjjDUaZslpDfTFjus34RM&keywords=Gabriel%20Goussot&origin=ENTITY_SEARCH_HOME_HISTORY&sid=j4p" target="_blank"><i class="fa-brands fa-linkedin Logo"></i></a>
+  			</li>
+  			<li>
+  				<a href="https://github.com/Gabriel-gsst" target="_blank"><i class="fa-brands fa-github Logo"></i></a>
+  			</li>
+
+  		</ul>
+  			
+  		<h3>And to others sites I like:</h3>
+
+		<ul class="social-icons">
+  			<li>	
+  				<a href="https://www.instagram.com/raecambra/" target="_blank"><i class="fa-brands fa-instagram"></i><a>
+  			</li>
+
+  			<li>
+  				<a href="https://www.youtube.com/watch?v=fbqHK8i-HdA" target="_blank"><i class="fa-solid fa-person-skiing"></i></a>
+  			</li>
+
+  			<li>
+  				<a href="https://www.coinbase.com/" target="_blank"><i class="fa-brands fa-bitcoin"></i></a>
+  			</li>
+
+  		</ul>
+
+  	  </div>
+	</div>
+
+
+  	<div id="cookie-popup" style="display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px; border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); z-index: 9999;">
+ 			 <h2>Do you accept the use of cookies?</h2>
+ 		 	<p>We use cookies to improve your user experience on our site.</p>
+  		<button onclick="acceptCookies()">Accept</button>
+  		<button onclick="refuseCookies()">Refuse</button>
+	</div>
+
+  			
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
