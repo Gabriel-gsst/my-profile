@@ -1,0 +1,110 @@
+body {
+	background-image: url(images/carbon.jpg); 
+	
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.card-white {
+  width: 700px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #ffffff;0.1;
+  border: 2px solid #00EDFF; 
+  border-radius: 10px; 
+  text-align: center; 
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 250px;
+  }
+}
+
+
+.shantell-sans-title {
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+  
+}
+
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social-icons li a i {
+  font-size: 30px;
+  color: #00EDFF ;
+}
+
+.Hobbie i {
+  font-size: 45px;
+}
+
+.Hobbie i:hover {
+  font-size: 55px;
+  color: #01396A;
+}
+
+.toggle-paragraph {
+ 	color: #F7FFF6 
+}
+
+h1{
+	font-size: 50px;
+	color: #01396A
+}
+h2{
+	color: #01427C ;
+	text-justify: center;
+	font-size: 25px;
+	 font-family: "Tenor Sans", sans-serif;
+}
+
+h3 {
+	color: #00EDFF;
+	font-size: 25px;
+	font-family: "Tenor Sans", sans-serif
+}
+
+p{
+	text-justify: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
